@@ -1,7 +1,6 @@
 import { sleep } from './sleep.ts'
 
 export async function useSelectionSort(array: number[]) {
-    console.log(array);
     let temp: number
     
     for (let i = 0; i < array.length; i++) {
@@ -16,6 +15,5 @@ export async function useSelectionSort(array: number[]) {
         }
     }
     
-    console.log(array);
     return array
 }
